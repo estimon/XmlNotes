@@ -1,0 +1,17 @@
+﻿<Window x:Class="XmlHarjutus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XmlHarjutus"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Pealikiri" HorizontalAlignment="Left" Margin="23,42,0,0" VerticalAlignment="Top" Height="45" Width="76"/>
+        <TextBox x:Name="PealBox" HorizontalAlignment="Left" Height="30" Margin="99,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <Label Content="Sisu" HorizontalAlignment="Left" Margin="23,92,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="SisuBox" HorizontalAlignment="Left" Height="256" Margin="23,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="605"/>
+        <Button x:Name="MFbutton" Content="Salvesta" HorizontalAlignment="Left" Margin="673,42,0,0" VerticalAlignment="Top" Width="93" Height="45" Click="MFbutton_Click"/>
+
+    </Grid>
+</Window>
