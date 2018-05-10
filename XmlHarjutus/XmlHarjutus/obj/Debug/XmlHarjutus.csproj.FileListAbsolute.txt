@@ -13,3 +13,17 @@ C:\Users\Martin Ploompuu\Documents\Visual Studio 2017\projects\XmlHarjutus\XmlHa
 C:\Users\Martin Ploompuu\Documents\Visual Studio 2017\projects\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.csproj.CoreCompileInputs.cache
 C:\Users\Martin Ploompuu\Documents\Visual Studio 2017\projects\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.exe
 C:\Users\Martin Ploompuu\Documents\Visual Studio 2017\projects\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.pdb
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\bin\Debug\XmlHarjutus.exe.config
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\bin\Debug\XmlHarjutus.exe
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\bin\Debug\XmlHarjutus.pdb
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.csprojResolveAssemblyReference.cache
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\MainWindow.g.cs
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\App.g.cs
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus_MarkupCompile.cache
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus_MarkupCompile.lref
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\MainWindow.baml
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.g.resources
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.Properties.Resources.resources
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.csproj.GenerateResource.Cache
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.exe
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.pdb

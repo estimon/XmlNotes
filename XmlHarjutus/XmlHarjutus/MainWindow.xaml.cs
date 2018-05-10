@@ -24,10 +24,20 @@ namespace XmlHarjutus
         public MainWindow()
         {
             InitializeComponent();
+            XmlDocument xdoc = new XmlDocument();
+            xdoc.Load("file:///C:/Users/opilane/Documents/GitHub/XmlNotes/XmlHarjutus/XmlHarjutus/bin/Debug/Notes.xml");
+
+
+            XmlNode node = xdoc.SelectSingleNode("/Asjad/Notes/Pealkiri");
+            Peal1Box.Text = node.InnerText;
+            XmlNode node1 = xdoc.SelectSingleNode("/Asjad/Notes/Sisu");
+            MärkBox.Text = node1.InnerText;
+
         }
 
         private void MFbutton_Click(object sender, RoutedEventArgs e)
         {
+         
             XmlWriter xmlnew = XmlWriter.Create("Notes.xml");
             xmlnew.WriteStartElement("Asjad");
             xmlnew.WriteStartElement("Notes");
@@ -39,8 +49,38 @@ namespace XmlHarjutus
             xmlnew.WriteEndElement();
             xmlnew.WriteEndElement();
             xmlnew.WriteEndElement();
+            
+
+            
 
             xmlnew.Close();
+
+
+
+
+
+            XmlDocument xdoc = new XmlDocument();
+            xdoc.Load("file:///C:/Users/opilane/Documents/GitHub/XmlNotes/XmlHarjutus/XmlHarjutus/bin/Debug/Notes.xml");
+
+
+            XmlNode node = xdoc.SelectSingleNode("/Asjad/Notes/Pealkiri");
+            Peal1Box.Text = node.InnerText;
+            XmlNode node1 = xdoc.SelectSingleNode("/Asjad/Notes/Sisu");
+            MärkBox.Text = node1.InnerText;
+
+
+
+
+
+        }
+
+        private void SisuBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
 
         }
     }

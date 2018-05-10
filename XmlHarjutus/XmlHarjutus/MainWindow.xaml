@@ -10,8 +10,10 @@
         <Label Content="Pealikiri" HorizontalAlignment="Left" Margin="23,42,0,0" VerticalAlignment="Top" Height="45" Width="76"/>
         <TextBox x:Name="PealBox" HorizontalAlignment="Left" Height="30" Margin="99,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
         <Label Content="Sisu" HorizontalAlignment="Left" Margin="23,92,0,0" VerticalAlignment="Top" Width="76"/>
-        <TextBox x:Name="SisuBox" HorizontalAlignment="Left" Height="256" Margin="23,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="605"/>
+        <TextBox x:Name="SisuBox" HorizontalAlignment="Left" Height="256" Margin="23,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="361" TextChanged="SisuBox_TextChanged"/>
         <Button x:Name="MFbutton" Content="Salvesta" HorizontalAlignment="Left" Margin="673,42,0,0" VerticalAlignment="Top" Width="93" Height="45" Click="MFbutton_Click"/>
+        <TextBox x:Name="MärkBox" HorizontalAlignment="Left" Height="199" Margin="468,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="298" IsEnabled="False"/>
+        <TextBox x:Name="Peal1Box" HorizontalAlignment="Left" Height="22" Margin="468,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="298" TextChanged="TextBox_TextChanged"/>
 
     </Grid>
 </Window>
