@@ -27,3 +27,20 @@ C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\Xml
 C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.csproj.GenerateResource.Cache
 C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.exe
 C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.pdb
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\bin\Debug\XmlHarjutus.exe.config
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\bin\Debug\XmlHarjutus.exe
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\bin\Debug\XmlHarjutus.pdb
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.csprojResolveAssemblyReference.cache
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\MainWindow.g.cs
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\App.g.cs
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus_MarkupCompile.cache
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus_MarkupCompile.lref
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\MainWindow.baml
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.g.resources
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.Properties.Resources.resources
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.csproj.GenerateResource.cache
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.csproj.CoreCompileInputs.cache
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.exe
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.pdb
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\Read.g.cs
+C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\Read.baml

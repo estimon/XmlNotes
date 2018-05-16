@@ -5,22 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:XmlHarjutus"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="542">
     <Grid>
-        <Label Content="Sisesta &#xD;&#xA;pealkriri:" HorizontalAlignment="Left" Margin="23,42,0,0" VerticalAlignment="Top" Height="45" Width="76"/>
+        <Label Content="Heading:" HorizontalAlignment="Left" Margin="23,42,0,0" VerticalAlignment="Top" Height="45" Width="76"/>
         <TextBox x:Name="PealBox" HorizontalAlignment="Left" Height="30" Margin="99,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
-        <Label Content="Sisesta sisu:" HorizontalAlignment="Left" Margin="23,92,0,0" VerticalAlignment="Top" Width="76"/>
+        <Label Content="Text:" HorizontalAlignment="Left" Margin="23,92,0,0" VerticalAlignment="Top" Width="76"/>
         <TextBox x:Name="SisuBox" HorizontalAlignment="Left" Height="256" Margin="23,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="361" TextChanged="SisuBox_TextChanged"/>
-        <Button x:Name="MFbutton" Content="Salvesta" HorizontalAlignment="Left" Margin="673,42,0,0" VerticalAlignment="Top" Width="93" Height="45" Click="MFbutton_Click"/>
-        <TextBox x:Name="MärkBox" HorizontalAlignment="Left" Height="191" Margin="468,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="298" IsEnabled="False"/>
-        <TextBox x:Name="Peal1Box" HorizontalAlignment="Left" Height="22" Margin="468,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="298" TextChanged="TextBox_TextChanged" IsEnabled="False"/>
-        <Label Content="Pealkiri" HorizontalAlignment="Left" Margin="468,109,0,0" VerticalAlignment="Top"/>
-        <Label Content="Sisu" HorizontalAlignment="Left" Margin="468,162,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="märkmedcmb" HorizontalAlignment="Left" Margin="468,42,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="märkmedcmb_SelectionChanged">
+        <Button x:Name="MFbutton" Content="Save" HorizontalAlignment="Left" Margin="396,65,0,0" VerticalAlignment="Top" Width="120" Height="45" Click="MFbutton_Click"/>
+        <ComboBox x:Name="märkmedcmb" HorizontalAlignment="Left" Margin="396,27,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="märkmedcmb_SelectionChanged" Loaded="MainWindow_Loaded">
             <ComboBox.ContextMenu>
                 <ContextMenu/>
             </ComboBox.ContextMenu>
         </ComboBox>
+        <Button x:Name="ss" Content="Clear document" HorizontalAlignment="Left" Margin="396,185,0,0" VerticalAlignment="Top" Width="120" Click="ss_Click"/>
+        <Button x:Name="Readbtn" Content="Read" HorizontalAlignment="Left" Margin="396,123,0,0" VerticalAlignment="Top" Width="120" Height="33" Click="Button_Click"/>
+        <Label Content="Save slots" HorizontalAlignment="Left" Margin="322,23,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

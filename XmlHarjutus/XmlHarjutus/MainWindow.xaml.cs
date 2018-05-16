@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml;
+using System.Xml.Linq;
 
 namespace XmlHarjutus
 {
@@ -23,19 +24,7 @@ namespace XmlHarjutus
     {
         public MainWindow()
         {
-
-
-
-
             InitializeComponent();
-            XmlDocument xdoc = new XmlDocument();
-            xdoc.Load("file:///C:/Users/opilane/Documents/GitHub/XmlNotes/XmlHarjutus/XmlHarjutus/bin/Debug/Notes.xml");
-            XmlNode node = xdoc.SelectSingleNode("/Asjad/Notes/Pealkiri");
-            Peal1Box.Text = node.InnerText;
-            XmlNode node1 = xdoc.SelectSingleNode("/Asjad/Notes/Sisu");
-            MärkBox.Text = node1.InnerText;
-
-
 
             märkmedcmb.Items.Add("Slot 1");
             märkmedcmb.Items.Add("Slot 2");
@@ -43,71 +32,92 @@ namespace XmlHarjutus
             märkmedcmb.Items.Add("Slot 4");
             märkmedcmb.Items.Add("Slot 5");
 
-           
         }
 
         public void MFbutton_Click(object sender, RoutedEventArgs e)
         {
+
+            XmlDocument xdoc = new XmlDocument();
+            xdoc.Load("Notes.xml");
+            XmlNode Notes = xdoc.CreateElement("Notes");
             if (märkmedcmb.SelectedItem == "Slot 1")
+
             {
-                XmlWriter xmlnew = XmlWriter.Create("Notes.xml");
-                xmlnew.WriteStartElement("Asjad");
-                xmlnew.WriteStartElement("Notes");
-                xmlnew.WriteStartElement("Pealkiri");
-                xmlnew.WriteString(PealBox.Text);
-                xmlnew.WriteEndElement();
-                xmlnew.WriteStartElement("Sisu");
-                xmlnew.WriteString(SisuBox.Text);
-                xmlnew.WriteEndElement();
-                xmlnew.WriteEndElement();
-                xmlnew.WriteEndElement();
-                xmlnew.Close();
+                XmlNode pealkiri1 = xdoc.CreateElement("Pealkiri1");
+                pealkiri1.InnerText = PealBox.Text;
+                Notes.AppendChild(pealkiri1);
+
+                XmlNode sisu1 = xdoc.CreateElement("Sisu1");
+                sisu1.InnerText = SisuBox.Text;
+                Notes.AppendChild(sisu1);
+                xdoc.DocumentElement.AppendChild(Notes);
+                xdoc.Save("Notes.xml");
+   
             }
-            
+
             else if (märkmedcmb.SelectedItem == "Slot 2")
             {
-                XmlWriter xmlnew = XmlWriter.Create("Notes.xml");
-                xmlnew.WriteStartElement("Asjad");
-                xmlnew.WriteStartElement("Notes");
-                xmlnew.WriteStartElement("Pealkiri1");
-                xmlnew.WriteString(PealBox.Text);
-                xmlnew.WriteEndElement();
-                xmlnew.WriteStartElement("Sisu1");
-                xmlnew.WriteString(SisuBox.Text);
-                xmlnew.WriteEndElement();
-                xmlnew.WriteEndElement();
-                xmlnew.WriteEndElement();
-                xmlnew.Close();
+                XmlNode pealkiri2 = xdoc.CreateElement("Pealkiri2");
+                pealkiri2.InnerText = PealBox.Text;
+                Notes.AppendChild(pealkiri2);
+
+                XmlNode sisu2 = xdoc.CreateElement("Sisu2");
+                sisu2.InnerText = SisuBox.Text;
+                Notes.AppendChild(sisu2);
+                xdoc.DocumentElement.AppendChild(Notes);
+                xdoc.Save("Notes.xml");
             }
 
-            //XmlWriter xmlnew = XmlWriter.Create("Notes.xml");
-            //xmlnew.WriteStartElement("Asjad");
-            //xmlnew.WriteStartElement("Notes");
-            //xmlnew.WriteStartElement("Pealkiri");
-            //xmlnew.WriteString(PealBox.Text);
-            //xmlnew.WriteEndElement();
-            //xmlnew.WriteStartElement("Sisu");
-            //xmlnew.WriteString(SisuBox.Text);
-            //xmlnew.WriteEndElement();
-            //xmlnew.WriteEndElement();
-            //xmlnew.WriteEndElement();
-            
+            else if (märkmedcmb.SelectedItem == "Slot 3")
+            {  
+                XmlNode pealkiri3 = xdoc.CreateElement("Pealkiri3");
+                pealkiri3.InnerText = PealBox.Text;
+                Notes.AppendChild(pealkiri3);
 
-            
+                XmlNode sisu3 = xdoc.CreateElement("Sisu3");
+                sisu3.InnerText = SisuBox.Text;
+                Notes.AppendChild(sisu3);
+                xdoc.DocumentElement.AppendChild(Notes);
+                xdoc.Save("Notes.xml");
+            }
 
-            //xmlnew.Close();
+            else if (märkmedcmb.SelectedItem == "Slot 4")
+            { 
+                XmlNode pealkiri4 = xdoc.CreateElement("Pealkiri4");
+                pealkiri4.InnerText = PealBox.Text;
+                Notes.AppendChild(pealkiri4);
+
+                XmlNode sisu4 = xdoc.CreateElement("Sisu4");
+                sisu4.InnerText = SisuBox.Text;
+                Notes.AppendChild(sisu4);
+                xdoc.DocumentElement.AppendChild(Notes);
+                xdoc.Save("Notes.xml");
+            }
+
+            else if (märkmedcmb.SelectedItem == "Slot 5")
+            {
+                XmlNode pealkiri5 = xdoc.CreateElement("Pealkiri5");
+                pealkiri5.InnerText = PealBox.Text;
+                Notes.AppendChild(pealkiri5);
+
+                XmlNode sisu5 = xdoc.CreateElement("Sisu5");
+                sisu5.InnerText = SisuBox.Text;
+                Notes.AppendChild(sisu5);
+                xdoc.DocumentElement.AppendChild(Notes);
+                xdoc.Save("Notes.xml");
+            }
+
+
+
             PealBox.Clear();
             SisuBox.Clear();
 
 
 
 
-            XmlDocument xdoc = new XmlDocument();
-            xdoc.Load("file:///C:/Users/opilane/Documents/GitHub/XmlNotes/XmlHarjutus/XmlHarjutus/bin/Debug/Notes.xml");
-            XmlNode node = xdoc.SelectSingleNode("/Asjad/Notes/Pealkiri");
-            Peal1Box.Text = node.InnerText;
-            XmlNode node1 = xdoc.SelectSingleNode("/Asjad/Notes/Sisu");
-            MärkBox.Text = node1.InnerText;
+
+
+          
         }
 
         private void SisuBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -125,6 +135,27 @@ namespace XmlHarjutus
      
 
 
+        }
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void ss_Click(object sender, RoutedEventArgs e)
+        {
+            XmlWriter xmlnew = XmlWriter.Create("Notes.xml");
+            xmlnew.WriteStartElement("Asjad");
+            xmlnew.WriteEndElement();
+            xmlnew.Close();
+
+        }
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Read read = new Read();
+            read.Show();
         }
     }
 }

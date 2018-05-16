@@ -1,1 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Asjad><Notes><Pealkiri1>xddddddd</Pealkiri1><Sisu1>terter</Sisu1></Notes></Asjad>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Asjad>
+  <Notes>
+    <Pealkiri1>Tere</Pealkiri1>
+    <Sisu1>XDS</Sisu1>
+  </Notes>
+  <Notes>
+    <Pealkiri2>dsadssd</Pealkiri2>
+    <Sisu2>sdadasdas</Sisu2>
+  </Notes>
+</Asjad>
