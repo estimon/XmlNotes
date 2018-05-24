@@ -17,10 +17,13 @@ using System.Xml;
 namespace XmlHarjutus
 {
     /// <summary>
-    /// Interaction logic for Read.xaml
+    /// This is the read window class
     /// </summary>
     public partial class Read : Window
     {
+        /// <summary>
+        /// Loads up the XML document and uses the XMLReader method to read the document.
+        /// </summary>
         public Read()
         {
             
@@ -29,14 +32,9 @@ namespace XmlHarjutus
             XmlDocument xdoc = new XmlDocument();
             xdoc.Load("Notes.xml");
             XmlTextReader reader = new XmlTextReader("Notes.xml");
-            reader.MoveToContent(); 
-
-
+            reader.MoveToContent();
             XmlNode nodes = xdoc.ReadNode(reader);
-
- 
             xdoc.DocumentElement.AppendChild(nodes);
-
             readtxt.Text = nodes.InnerText;
 
 

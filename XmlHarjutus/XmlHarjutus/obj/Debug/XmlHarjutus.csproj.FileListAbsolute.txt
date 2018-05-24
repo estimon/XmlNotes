@@ -44,3 +44,6 @@ C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\D
 C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\XmlHarjutus.pdb
 C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\Read.g.cs
 C:\Users\Martin Ploompuu\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\Read.baml
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\bin\Debug\XmlHarjutus.xml
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\Read.g.cs
+C:\Users\opilane\Documents\GitHub\XmlNotes\XmlHarjutus\XmlHarjutus\obj\Debug\Read.baml

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XmlHarjutus</name>
+    </assembly>
+    <members>
+        <member name="T:XmlHarjutus.Read">
+            <summary>
+            This is the read window class
+            </summary>
+            <summary>
+            Read
+            </summary>
+        </member>
+        <member name="M:XmlHarjutus.Read.#ctor">
+            <summary>
+            Loads up the XML document and uses the XMLReader method to read the document.
+            </summary>
+        </member>
+        <member name="M:XmlHarjutus.Read.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XmlHarjutus.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:XmlHarjutus.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:XmlHarjutus.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:XmlHarjutus.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:XmlHarjutus.MainWindow.#ctor">
+            <summary>
+            It contains all texboxes and buttons. Also shows and adds the save slots:
+            </summary>
+        </member>
+        <member name="M:XmlHarjutus.MainWindow.MFbutton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Loads up the xml document and then saves the notes to the specifified save slot. And then cleares the textboxes
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:XmlHarjutus.MainWindow.ss_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Clears the xml file and adds some elements so the program could work normaly
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:XmlHarjutus.MainWindow.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens up the Read window
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:XmlHarjutus.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XmlHarjutus.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:XmlHarjutus.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:XmlHarjutus.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

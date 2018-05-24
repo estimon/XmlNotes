@@ -18,10 +18,13 @@ using System.Xml.Linq;
 namespace XmlHarjutus
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// This is the mainwindows class
     /// </summary>
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// It contains all texboxes and buttons. Also shows and adds the save slots.
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
@@ -33,16 +36,22 @@ namespace XmlHarjutus
             märkmedcmb.Items.Add("Slot 5");
 
         }
-
+        /// <summary>
+        /// Loads up the xml document and then saves the notes to the specifified save slot. And then cleares the textboxes
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void MFbutton_Click(object sender, RoutedEventArgs e)
         {
 
             XmlDocument xdoc = new XmlDocument();
             xdoc.Load("Notes.xml");
             XmlNode Notes = xdoc.CreateElement("Notes");
+            
             if (märkmedcmb.SelectedItem == "Slot 1")
 
             {
+
                 XmlNode pealkiri1 = xdoc.CreateElement("Pealkiri1");
                 pealkiri1.InnerText = PealBox.Text;
                 Notes.AppendChild(pealkiri1);
@@ -108,7 +117,6 @@ namespace XmlHarjutus
             }
 
 
-
             PealBox.Clear();
             SisuBox.Clear();
 
@@ -141,7 +149,11 @@ namespace XmlHarjutus
         {
 
         }
-
+        /// <summary>
+        /// Clears the xml file and adds some elements so the program could work normaly
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void ss_Click(object sender, RoutedEventArgs e)
         {
             XmlWriter xmlnew = XmlWriter.Create("Notes.xml");
@@ -151,7 +163,11 @@ namespace XmlHarjutus
 
         }
 
-
+        /// <summary>
+        /// Opens up the Read window
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Read read = new Read();
